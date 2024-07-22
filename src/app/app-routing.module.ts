@@ -10,7 +10,6 @@ import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 
 
 const routes: Routes = [  
-  {path:'', component: DashboardComponent },
   {path:'**', component: NopagefoundComponent },
 ];
 
